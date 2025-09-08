@@ -1,4 +1,4 @@
-# TryHackMe-ALL-Free-Room
+# TryHackMe-ALL-Free-Rooms
 
 Welcome to my repository documenting my journey through **all free TryHackMe rooms**, from beginner to advanced! This project tracks my progress in learning cybersecurity through hands-on challenges on [TryHackMe](https://tryhackme.com), a platform offering interactive labs to master skills like Linux, web exploitation, OSINT, and Capture The Flag (CTF) challenges. Whether you're a beginner or an experienced hacker, this repo aims to inspire and guide you through free, accessible cybersecurity training.
 
