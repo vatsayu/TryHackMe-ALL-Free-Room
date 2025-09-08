@@ -48,17 +48,6 @@ The **Linux Fundamentals Part 1** room on TryHackMe (https://tryhackme.com/room/
   - Check TryHackMe hints if no flags are found.
   - Be case-sensitive when submitting flags.
 
-## Example Image
-Below is a placeholder for a screenshot of a command output (e.g., `ls -la` or `grep` result). To include it in your GitHub repo:
-1. Take a screenshot on Kali Linux: `scrot linux-fundamentals.png`.
-2. Upload to your repo’s `images/` folder.
-3. Update the markdown:  
-   ```markdown
-   ![Command Output](images/linux-fundamentals.png)
-   ```
-
-*Placeholder*:  
-![Command Output](images/linux-fundamentals.png)
 
 ## Challenges Faced
 - **Navigation Errors**: Mistyped `cd` commands; double-check directory names with `ls`.
