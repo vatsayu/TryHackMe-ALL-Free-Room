@@ -1,7 +1,7 @@
 # Google Dorking Writeup - TryHackMe
 
 ## Overview
-The **Google Dorking** room on TryHackMe (https://tryhackme.com/room/googledorking) is a beginner-friendly Open-Source Intelligence (OSINT) walkthrough that teaches advanced Google search techniques using operators like `site:`, `inurl:`, and `filetype:`. This writeup documents the methodology to complete the room, focusing on crafting precise queries to find specific information, without revealing exact answers. Completed by [r3Tro](https://tryhackme.com/p/r3Tro) on September 8, 2025.
+The **Google Dorking** room on TryHackMe is a beginner-friendly Open-Source Intelligence (OSINT) walkthrough that teaches advanced Google search techniques using operators like `site:`, `inurl:`, and `filetype:`. This writeup documents the methodology to complete the room, focusing on crafting precise queries to find specific information, without revealing exact answers. Completed by [r3Tro](https://tryhackme.com/p/r3Tro) on September 8, 2025.
 
 ## Tools Used
 - **Web Browser**: Firefox or Chrome for performing Google searches.
@@ -51,20 +51,6 @@ The **Google Dorking** room on TryHackMe (https://tryhackme.com/room/googledorki
 - **Tips**:
   - Use TryHackMe hints if a query fails to yield results.
   - Organize notes by task for easy review.
-
-## Example Images
-Below are placeholders for screenshots of the sitemap and robots.txt files. To include them in your GitHub repo:
-1. Take screenshots of the sitemap.xml and robots.txt files you found during the room (e.g., `scrot sitemap.png` and `scrot robots.txt.png` on Kali Linux).
-2. Upload them to your repo’s `images/` folder.
-3. Update the markdown with the correct paths:  
-   ```markdown
-   ![Sitemap Example](images/sitemap.png)
-   ![Robots.txt Example](images/robots.txt.png)
-   ```
-
-*Placeholders*:  
-![Sitemap Example](images/sitemap.png)  
-![Robots.txt Example](images/robots.txt.png)
 
 ## Challenges Faced
 - **Broad Search Results**: Initial queries returned too many hits; refined with additional operators.
