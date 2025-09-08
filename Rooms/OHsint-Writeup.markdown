@@ -69,12 +69,11 @@ Below is a placeholder for a screenshot of `exiftool` output or a Google search 
 1. Take a screenshot of your `exiftool` output or a Google search result (e.g., using `scrot` on Kali: `scrot screenshot.png`).
 2. Upload the image to your repo (e.g., in an `images/` folder).
 3. Update the markdown with the correct path:  
-   ```markdown
-   ![exiftool Output](images/exiftool-ohsint.png)
-   ```
+ 
 
 *Placeholder*:  
-![exiftool Output](images/exiftool-ohsint.png)
+ ![exiftool_result](https://github.com/user-attachments/assets/d9b2c2e9-8839-4e78-a789-0bf745711287)
+
 
 ## Challenges Faced
 - **No Metadata in Image**: If `exiftool` returns no useful data, focus on visual clues or search for usernames found in the image.
