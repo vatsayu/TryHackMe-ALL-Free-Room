@@ -1,0 +1,43 @@
+# TryHackMe: Nmap Writeup
+
+**Room**: [Nmap](https://tryhackme.com/room/nmap01)  
+**Difficulty**: Beginner  
+**Author**: [r3Tro](https://tryhackme.com/p/r3Tro)  
+**Date**: September 9, 2025  
+
+## Overview
+The **Nmap** room teaches network scanning with Nmap to identify open ports, services, and system details, a key step in pentesting reconnaissance.
+
+## Tools Used
+- Nmap (on TryHackMe AttackBox).
+- TryHackMe VPN.
+
+## Methodology
+1. **Basic Scan**:
+   - Run `nmap <target_ip>` to list open ports (e.g., 22/SSH, 80/HTTP).
+   - Counted open ports for the task question.
+2. **Service Version Detection**:
+   - Used `nmap -sV <target_ip>` to find service versions (e.g., OpenSSH 7.6).
+   - Answered questions about specific services.
+3. **Aggressive Scan**:
+   - Ran `nmap -A <target_ip>` to detect OS and additional details.
+   - Identified the target’s OS from the output.
+4. **Specific Port Scanning**:
+   - Scanned with `nmap -p 80,443 <target_ip>` to check HTTP/HTTPS.
+   - Confirmed open/closed ports.
+
+## Key Learnings
+- Mastered Nmap syntax (`-sV`, `-A`, `-p`).
+- Learned to interpret scan results for ports and services.
+- Practiced saving outputs (`nmap -oN output.txt`).
+
+## Screenshots
+*(Add screenshot of Nmap output)*  
+To add: Capture `nmap -A <target_ip>` as `nmap_scan.png`.
+
+## Challenges Faced
+- Used `-Pn` flag when the host appeared down (`nmap -Pn <target_ip>`).
+- Ensured VPN was connected.
+
+## Next Steps
+- Apply Nmap skills in rooms like Vulnversity.
