@@ -1,4 +1,4 @@
-# TryHackMe: Nmap Writeup
+# TryHackMe: Nmap 
 
 **Room**: [Nmap](https://tryhackme.com/room/nmap01)  
 **Difficulty**: Beginner  
